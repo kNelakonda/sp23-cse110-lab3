@@ -8,10 +8,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+<style>
+    h2{
+        position: relative;
+    }
+    body > header{
+        position: sticky;
+    }
+</style>
   </head>
   <body>
-    <header>
-        <h1>Example Meeting 1</h1>
+    <header style="background-color: whitesmoke;">
+        <h1 class="title">Example Meeting 1</h1>
     </header>
     <main>
       
@@ -24,7 +32,7 @@
         <hr>
         <div>
             <p><strong>Names</strong> of <br><span>People</span></p>
-            <ol>
+            <ol id="names">
                 <li><i>Name 1</i></li>
                 <li><em>Name 2</em></li>
                 <li>Name 3</li>
@@ -34,7 +42,7 @@
             </ol>
         </div>
         <hr>
-            <p><b>Tasks:</b></p>
+            <p class="tasks"><b>Tasks:</b></p>
             <ul>
                 <li>Know everyone's names</li>
                 <li>Know the roles of everyone</li>

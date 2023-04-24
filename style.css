@@ -1,10 +1,10 @@
 /* the body will use the following: */
-body {
+* {
     font-family: 'Quicksand', sans-serif;
 
 }
 
-h1 {
+h1[class] {
     color: rgb(0, 73, 128);
     margin-top: 8px;
     padding-bottom: 1vb;
@@ -14,11 +14,14 @@ h1 {
 h3 {
     color: blue;
     margin: 10pc 10pc 10pc 10pc;
+    border-radius: 10px;
+    border-width: 10pt;
 }
 
-h2 {
+footer h2 {
     color: #000000;
     padding: 1vh 1vw 1vh 1vw;
+    border-color: blueviolet;
 }
 
 a {
@@ -30,4 +33,27 @@ main {
     border: 1px dashed black 10px;
 }
 
+.title {
+    text-decoration: wavy;
+    text-align: center;
+}
+
+#names {
+    display: block;
+}
+
+p.tasks{
+    display: inline-block;
+}
+
+form {
+    height: auto;
+    width: auto;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+
+input ~ datalist {
+    font: bold;
+}
 /* */
