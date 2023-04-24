@@ -6,20 +6,28 @@ body {
 
 h1 {
     color: rgb(0, 73, 128);
+    margin-top: 8px;
+    padding-bottom: 1vb;
+    border-style: dotted;
 }
 
 h3 {
     color: blue;
+    margin: 10pc 10pc 10pc 10pc;
 }
 
 h2 {
     color: #000000;
+    padding: 1vh 1vw 1vh 1vw;
 }
 
-nav {
+a {
     color: hsl(0, 100, 50);
     background:hsl(248, 100%, 50%);
 }
 
+main {
+    border: 1px dashed black 10px;
+}
 
 /* */
