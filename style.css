@@ -82,3 +82,19 @@ summary + p {
     font-family: Arial, Helvetica, sans-serif;
 }
 /* */
+
+@media only screen and (min-width: 30cm) {
+    h1 {
+
+        font-size: 5rem;
+      }
+      h3 {
+        font-size: 3rem;
+      }
+      h2 {
+        font-size: 4rem;
+      }
+      a {
+        font-size: 1.25rem;
+      }
+}
